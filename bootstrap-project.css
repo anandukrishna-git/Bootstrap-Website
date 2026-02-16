@@ -1,0 +1,132 @@
+/*nav*/
+.eLEARNING-logo{
+    width: 150px;
+}
+.d-block{
+    filter: brightness(50%);
+    filter: blur(50%);
+}
+.carousel-item{
+    border: 0px blue solid;
+    position: relative;
+}
+.carousel-caption{
+    border: 0px red solid;
+    position: absolute;
+    top: 25%;
+    line-height: 100px;
+}
+.card-image {
+    color:rgb(6,187,204);
+    font-size: 60px;
+    text-align: center;
+}
+
+.hover-card {
+    transition: all 0.3s ease;
+    background-color: rgba(13, 202, 240, 0.10);
+}
+.hover-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+/* icon default */
+.card-image {
+    color: rgb(6, 187, 204);
+    font-size: 60px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+/* card smooth animation */
+.hover-card {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* INVERT EFFECT */
+.hover-card:hover {
+    background-color: rgb(6, 187, 204);
+}
+
+.hover-card:hover .card-image {
+    color: #ffffff;
+}
+.category-box {
+    min-width: 180px;
+}
+/* Smooth transition */
+.category-img {
+    transition: transform 0.5s ease;
+}
+
+/* Zoom image on hover */
+.category-wrapper:hover .category-img {
+    transform: scale(1.1);
+}
+
+.course-card{
+    background-color:rgba(13, 202, 240, 0.10);
+}
+
+.btn-2one{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+}
+.btn-2two{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 15px;
+}
+.instructor-social{
+    background-color: rgb(230, 250, 253);
+}
+footer {
+    background: linear-gradient(180deg, #1c1f3b, #121530);
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    padding-left: 5px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-btn:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #0dcaf0;
+}
+
+.footer-bottom-link {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-bottom-link:hover {
+    opacity: 1;
+}
